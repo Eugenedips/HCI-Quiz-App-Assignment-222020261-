@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="quiz-container">
+      
+      <h1>ANIME TRIVIA</h1>
+      
+      <label for="student-name">Student Name:</label>
+<input type="text" id="student-name" name="student-name">
+
+
+<label for="student-number">Student Number:</label>
+<input type="text" id="student-number" name="student-number">
+
+
+      <div id="question-container">
+
+        <p id="question"></p>
+        <ul id="answer-buttons">
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+        </ul>
+      </div>
+      <div id="timer-container">
+        <p id="timer"></p>
+      </div>
+      <div id="controls">
+        <button id="start-button">Start</button>
+      </div>
+      <div id="controls">
+        <button id="next-button">Next</button>
+      </div>
+    </div>
+    <div id="feedback"></div>
+    <div id="score-chart"></div>
+    
+    <div id="chart-container">
+    <canvas id="chart"></canvas>
+  </div>
+  </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
